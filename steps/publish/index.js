@@ -1,6 +1,5 @@
 'use strict';
 
-const fs = require('fs-extra');
 const path = require('path');
 
 const ghpages = require('gh-pages');
@@ -36,6 +35,7 @@ module.exports = {
   },
 
   run(ok, ko) {
+    console.log('lerele');
     return this._uploadWebsite().then(ok, ko);
   }
 };

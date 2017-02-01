@@ -1,5 +1,5 @@
 {
-  "name" : "build",
+  "name" : "publish",
   "description": "Publish docs website",
   "plugins": ["git"],
   "contexts": ["documentation"],
