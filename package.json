@@ -1,6 +1,6 @@
 {
   "name": "pisco-documentation-publish",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Publish a docs website",
   "main": "bin/pisco.js",
   "scripts": {
