@@ -1,5 +1,5 @@
 {
-  "cmd": "pisco-documentation-build",
+  "cmd": "pisco-documentation-publish",
   "repoTypes": [
     "documentation"
   ]
