@@ -1,0 +1,26 @@
+{
+  "name": "pisco-documentation-publish",
+  "version": "0.1.0",
+  "description": "Publish a docs website",
+  "main": "bin/pisco.js",
+  "scripts": {
+    "deps": "npm install",
+    "postinstall": "node bin/pisco.js -w"
+  },
+  "keywords": [
+    "piscosour-recipe"
+  ],
+  "license": "ISC",
+  "preferGlobal": true,
+  "bin": {
+    "pisco-documentation-build": "bin/pisco.js"
+  },
+  "dependencies": {
+    "pisco-plugin-git": "^0.3.1",
+    "piscosour": "^1.0.0-alpha.8",
+    "gh-pages": "^0.12.0"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  }
+}
