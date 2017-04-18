@@ -35,7 +35,6 @@ module.exports = {
   },
 
   run(ok, ko) {
-    console.log('lerele');
     return this._uploadWebsite().then(ok, ko);
   }
 };
